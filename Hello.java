@@ -9,8 +9,9 @@ public class Hello {
         Building factory = factoriesFactory.createBuilding("Factory");
         Building school = schoolFactory.createBuilding("School");
         Building house = houseFactory.createBuilding("house");
-        Building house2 = houseFactory.createBuilding("house");
         Building commercialBuildings = commercialBuildingsFactory.createBuilding("Commercial Buildings");
+        house.build();
+        house.build();
         house.build();
         commercialBuildings.build();
         factory.build();

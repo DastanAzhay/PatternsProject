@@ -7,6 +7,7 @@ public class House extends Building {
     public void build() {
         System.out.println("House has been built.");
         houseNumber++;
+        numberOfResidents+=4;
 
     }
 
@@ -19,9 +20,8 @@ public class House extends Building {
 
     }
 
-    public House(int initialResidents) {
+    public House() {
         super("House");
-        this.numberOfResidents =initialResidents;
 
     }
 
