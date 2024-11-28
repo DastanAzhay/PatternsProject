@@ -1,1 +1,1 @@
-# Fun project for Patterns course!
+# Fun project for Patterns course!  

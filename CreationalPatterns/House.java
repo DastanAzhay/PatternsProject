@@ -5,21 +5,22 @@ public class House extends Building {
     private static int houseNumber = 0;
     @Override
     public void build() {
-        System.out.println("CreationalPatterns.House has been built.");
+        System.out.println("House has been built.");
         houseNumber++;
 
     }
 
     @Override
     public void destroy() {
-        System.out.println("CreationalPatterns.House has been destroyed.");
+        System.out.println("House has been destroyed.");
         houseNumber--;
+        numberOfResidents -=4;
 
 
     }
 
     public House(int initialResidents) {
-        super("CreationalPatterns.House");
+        super("House");
         this.numberOfResidents =initialResidents;
 
     }

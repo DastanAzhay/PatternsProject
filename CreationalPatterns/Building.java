@@ -8,6 +8,6 @@ public abstract class Building {
         this.type = type;
     }
     public String getInfo() {
-        return "========================\n"+"\nCreationalPatterns.Building: " + type + "\n";
+        return "=============================="+"\nBuilding: " + type + "\n";
     }
 }
