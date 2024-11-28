@@ -1,5 +1,6 @@
 package CreationalPatterns;
 
+
 public abstract class Building {
     public String type;
     public  abstract void build();
@@ -10,4 +11,5 @@ public abstract class Building {
     public String getInfo() {
         return "=============================="+"\nBuilding: " + type + "\n";
     }
+
 }
