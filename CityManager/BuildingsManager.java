@@ -17,9 +17,10 @@ public class BuildingsManager {
         int choice = scanner.nextInt();
         switch (choice) {
             case 1:
-                buildMenu.buildMenu(choice);
+                buildMenu.buildMenu();
+                break;
             case 2:
-                destroyMenu.destroyMenu(choice);
+                destroyMenu.destroyMenu();
             case 4:
                 return;
             default:
