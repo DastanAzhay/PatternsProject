@@ -1,4 +1,4 @@
-package CreationalPatterns;
+package Buildings;
 
 public class CommercialBuildingsFactory extends BuildingFactory{
     @Override

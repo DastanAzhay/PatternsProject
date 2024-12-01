@@ -1,4 +1,4 @@
-package CreationalPatterns;
+package Buildings;
 
 public class Factories extends Building {
     private static int numberOfFactories=0;
@@ -16,6 +16,11 @@ public class Factories extends Building {
     }
     public Factories(){
         super("Factory");
+    }
+
+    @Override
+    public double generateIncome() {
+        return 100000;
     }
 
     @Override

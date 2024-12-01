@@ -1,4 +1,6 @@
-package CreationalPatterns;
+package Buildings;
+
+import java.util.Random;
 
 public class House extends Building {
     private static int  numberOfResidents = 0;
@@ -7,8 +9,15 @@ public class House extends Building {
     public void build() {
         System.out.println("House has been built.");
         houseNumber++;
-        numberOfResidents =  numberOfResidents + 4;
 
+
+        numberOfResidents +=4;
+
+    }
+
+    @Override
+    public double generateIncome() {
+        return 25000;
     }
 
     @Override

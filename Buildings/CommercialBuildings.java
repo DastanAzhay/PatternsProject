@@ -1,4 +1,4 @@
-package CreationalPatterns;
+package Buildings;
 
 public class CommercialBuildings extends Building{
     @Override
@@ -17,4 +17,8 @@ public class CommercialBuildings extends Building{
         return super.getInfo();
     }
 
+    @Override
+    public double generateIncome() {
+        return 150000;
+    }
 }

@@ -1,4 +1,4 @@
-import CreationalPatterns.*;
+import Buildings.*;
 
 public class Hello {
     public static void main(String[] args){

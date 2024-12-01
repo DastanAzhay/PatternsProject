@@ -1,9 +1,9 @@
 package CityManager;
 
-import CreationalPatterns.Building;
-import CreationalPatterns.Factories;
-import CreationalPatterns.House;
-import CreationalPatterns.School;
+import Buildings.Building;
+import Buildings.Factories;
+import Buildings.House;
+import Buildings.School;
 
 import java.util.Scanner;
 

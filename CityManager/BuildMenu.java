@@ -1,14 +1,17 @@
 package CityManager;
 
-import CreationalPatterns.Building;
-import CreationalPatterns.FactoriesFactory;
-import CreationalPatterns.HouseFactory;
-import CreationalPatterns.SchoolFactory;
+import Buildings.Building;
+import Buildings.FactoriesFactory;
+import Buildings.HouseFactory;
+import Buildings.SchoolFactory;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class BuildMenu {
     Building building = null;
+    List<Building> buildings = new ArrayList<Building>();
 
     public void buildMenu() {
         Scanner scanner = new Scanner(System.in);
@@ -22,6 +25,7 @@ public class BuildMenu {
             case 1:
                 building = new HouseFactory().createBuilding("house");
                 building.build();
+                buildings.add(building);
                 System.out.println(building.getInfo());
                 break;
             case 2:
@@ -39,5 +43,9 @@ public class BuildMenu {
             default:
                 System.out.println("Invalid choice, please try again.");
                 }
+    }
+
+    public List<Building> getBuildings() {
+        return buildings;
     }
 }

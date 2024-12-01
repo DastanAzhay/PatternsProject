@@ -1,7 +1,13 @@
-package CreationalPatterns;
+package Buildings;
 
 public class School extends Building {
     private static int numberOfSchools = 0;
+
+    @Override
+    public  double generateIncome() {
+        return 50000;
+    }
+
     @Override
     public void destroy() {
         System.out.println("|||||||||||||||||||| A L E R T ||||||||||||||||||||");

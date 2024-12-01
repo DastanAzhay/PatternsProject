@@ -1,6 +1,4 @@
-package CreationalPatterns;
-
-import java.util.Random;
+package Buildings;
 
 public class HouseFactory extends BuildingFactory {
     @Override
