@@ -10,7 +10,7 @@ public abstract class Building {
         this.type = type;
     }
     public String getInfo() {
-        return "=============================="+"\nBuilding: " + type + "\n";
+        return "Building: " + type;
     }
 
 }

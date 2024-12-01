@@ -36,6 +36,6 @@ public class House extends Building {
 
     @Override
     public String getInfo() {
-        return super.getInfo() + "numOfResidents: " + numberOfResidents + "\nNumber of Houses: " + houseNumber + "\n==============================\n" ;
+        return super.getInfo() + "\nnumOfResidents: " + numberOfResidents + "\nNumber of Houses: " + houseNumber  ;
     }
 }

@@ -21,7 +21,7 @@ public class BuildMenu {
         System.out.println("3. School");
         System.out.println("4. Return to previous menu");
         int choice = scanner.nextInt();
-                switch (choice) {
+        switch (choice) {
             case 1:
                 building = new HouseFactory().createBuilding("house");
                 building.build();
@@ -42,7 +42,7 @@ public class BuildMenu {
                 return;
             default:
                 System.out.println("Invalid choice, please try again.");
-                }
+        }
     }
 
     public List<Building> getBuildings() {
